@@ -185,7 +185,7 @@ dependencies {
     }
     
     modlauncherImplementation 'net.sf.jopt-simple:jopt-simple:5.0.4'
-    modlauncherCompileOnly 'org.apache.logging.log4j:log4j-core:2.0-beta9'
+    modlauncherCompileOnly 'org.apache.logging.log4j:log4j-core:2.12.2'
     modlauncherImplementation ("cpw.mods:modlauncher:$legacyModlauncherVersion") {
         exclude module: 'asm'
         exclude module: 'asm-analysis'
@@ -208,12 +208,12 @@ dependencies {
     modlauncher9Implementation 'cpw.mods:securejarhandler:0.9.+'
     
     // asm bridge
-    bridgeImplementation 'org.apache.logging.log4j:log4j-core:2.0-beta9'
+    bridgeImplementation 'org.apache.logging.log4j:log4j-core:2.12.2'
     bridgeImplementation "org.ow2.asm:asm-commons:$legacyForgeAsmVersion"
     
     legacyImplementation "org.ow2.asm:asm-tree:$asmVersion"
     
-    modularityCompileOnly 'org.apache.logging.log4j:log4j-core:2.11.2'
+    modularityCompileOnly 'org.apache.logging.log4j:log4j-core:2.12.2'
 }
 
 javadoc {
