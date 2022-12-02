@@ -162,7 +162,7 @@ dependencies {
     def guava = 'com.google.guava:guava:21.0' // from mc1.12 onwards
     
     implementation guava
-    implementation 'com.google.code.gson:gson:2.2.4'
+    implementation 'com.google.code.gson:gson:2.8.9'
     if (Float.parseFloat(asmVersion) < 6) {
         implementation "org.ow2.asm:asm-debug-all:$asmVersion"
     }
