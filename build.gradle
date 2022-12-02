@@ -159,7 +159,7 @@ potemkinModules {
 
 // Project dependencies
 dependencies {
-    def guava = 'com.google.guava:guava:21.0' // from mc1.12 onwards
+    def guava = 'com.google.guava:guava:30.0-android' // from mc1.12 onwards
     
     implementation guava
     implementation 'com.google.code.gson:gson:2.2.4'
